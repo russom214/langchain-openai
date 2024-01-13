@@ -1,15 +1,15 @@
 import React from 'react';
 
-const PromptBox = ({prompt, 
-        handlePromptChange, 
+const PromptBox = ({prompt,
+        handlePromptChange,
         handleSubmit,
-         placeholderText, 
-         buttonText,
+        placeholderText,
+        buttonText,
         error,
         disableButton,
         labelText,
         })=>{
-            
+
             const handleKeyDown = (e) =>{
                 if (e.key === "Enter"){
                     handleSubmit();
